@@ -178,10 +178,7 @@ input:focus{border: 2px solid rgb(243, 189, 88);}
 
   #submit p {margin-top: 4vh;}
 
-  #submit a{
-      color: rgb(168, 109, 0);
-      font-size: max(12px, 0.9vw);
-    }
+  #submit a{color: rgb(168, 109, 0);}
 
   #submit a:hover{color: rgb(87, 56, 0);}
 
