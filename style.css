@@ -89,8 +89,7 @@ h1{
     font-size: max(15px, 1.2vw);
     font-weight: bold;
     padding:0 5vw 50px 50px;
-    padding-top: 15vh;
-    
+    padding-top: 7vh; 
     max-width: 60vw;
 }
 
@@ -118,9 +117,7 @@ h3{
     flex-direction: column;
 }
 
-#form input{
-    margin-bottom: 15px;
-}
+#form input{margin-bottom: 3vh;}
 
 input {
     border-radius: 4px;
@@ -136,9 +133,7 @@ input:hover{
     background-color: rgb(252, 241, 228);
 }
 
-input:focus{
-    border: 2px solid rgb(243, 189, 88);
-}
+input:focus{border: 2px solid rgb(243, 189, 88);}
 
 #sidebar > img{
     max-width: 35vw;
@@ -172,6 +167,7 @@ input:focus{
     justify-content: center;
     align-items: center;
     box-shadow: 1px 4px 9px -6px;
+    cursor: pointer;
   }
 
   #create:hover{
@@ -179,5 +175,14 @@ input:focus{
       background-color: rgb(243, 217, 170);
       /* color: black; */
   }
+
+  #submit p {margin-top: 4vh;}
+
+  #submit a{
+      color: rgb(168, 109, 0);
+      font-size: max(12px, 0.9vw);
+    }
+
+  #submit a:hover{color: rgb(87, 56, 0);}
 
 
